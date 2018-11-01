@@ -86,8 +86,31 @@ img {
 <p></p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/O8sxit7DoGM" allowfullscreen="allowfullscreen"></iframe></p>
 <p></p>
-<p><iframe width="560" height="314" src="//www.youtube.com/embed/m1TJdTuagyE" allowfullscreen="allowfullscreen"></iframe></p><h2>Week5</h2><p>練習影片</p><p><iframe width="560" height="314" src="//www.youtube.com/embed/pFi9xfAlgFw" allowfullscreen="allowfullscreen"></iframe></p><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/VBM75Zcc_1w" allowfullscreen="allowfullscreen"></iframe></p><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/z0BB2uDFANE" allowfullscreen="allowfullscreen"></iframe></p><h2>Week6</h2>
-<h2>Week7</h2><h1>Python 手冊</h1>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/m1TJdTuagyE" allowfullscreen="allowfullscreen"></iframe></p><h2>Week5</h2><p>練習影片</p><p><iframe width="560" height="314" src="//www.youtube.com/embed/pFi9xfAlgFw" allowfullscreen="allowfullscreen"></iframe></p><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/VBM75Zcc_1w" allowfullscreen="allowfullscreen"></iframe></p><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/z0BB2uDFANE" allowfullscreen="allowfullscreen"></iframe></p><p></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/ECmwpgyE7GQ" allowfullscreen="allowfullscreen"></iframe></p><h2>Week6</h2>
+<h2>Week7</h2>
+<p><strong>本週出現的問題 :</strong></p>
+<p><strong>Github 無法登入</strong></p>
+<p>本週一開始, 就碰到 Github 無法登入的問題, 具體原因如下:</p>
+<p><a href="https://status.github.com/messages">https://status.github.com/messages</a><br><a href="https://blog.github.com/2018-10-21-october21-incident-report/">https://blog.github.com/2018-10-21-october21-incident-report/</a><br><a href="https://thenextweb.com/dd/2018/10/22/github-is-down-because-of-data-storage-issues/" rel="nofollow">https://thenextweb.com/dd/2018/10/22/github-is-down-because-of-data-storage-issues/</a><br><a href="https://www.onmsft.com/news/github-suffers-hours-long-outage-coming-back-online-now" rel="nofollow">https://www.onmsft.com/news/github-suffers-hours-long-outage-coming-back-online-now</a><br><a href="https://www.theinquirer.net/inquirer/news/3064898/github-down-major-outage" rel="nofollow">https://www.theinquirer.net/inquirer/news/3064898/github-down-major-outage</a></p>
+<p><strong>發生原因</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/Network_partition" rel="nofollow">network partition</a><span>&nbsp;</span>and subsequent database failure</p>
+<p>A network partition refers to network decomposition into relatively independent subnets for their separate optimization as well as network split due to the failure of network devices.</p>
+<p>也就是網路裝置與資料庫故障, 導致發生此一事件</p>
+<p><strong>影響範圍</strong></p>
+<p>this incident only impacted website metadata stored in our MySQL databases, such as issues and pull requests<br>Git repository data remains unaffected and has been available throughout the incident</p>
+<p><strong>因應處理</strong></p>
+<p>各計算機程式、電腦輔助設計與協同產品設計倉儲資料除了近端與 Github 端存放外, 還必須同步到:<br><a href="https://about.gitlab.com/pricing/" rel="nofollow">https://about.gitlab.com/pricing/</a><br><a href="https://bitbucket.org/product/pricing" rel="nofollow">https://bitbucket.org/product/pricing</a><br>以及自建區域網路上的<span>&nbsp;</span><a href="https://fossil-scm.org/" rel="nofollow">Fossli SCM</a><span>&nbsp;</span>主機</p>
+<p>Github Pages 靜態資料可以分別以:<br><a href="https://about.gitlab.com/features/pages/" rel="nofollow">https://about.gitlab.com/features/pages/</a><br><a href="https://marketplace.atlassian.com/apps/1212525/pages-for-bitbucket-server?hosting=server&amp;tab=overview" rel="nofollow">Pages for Bitbucket</a><br>以及<span>&nbsp;</span><a href="https://fossil-scm.org/xfer/doc/trunk/www/embeddeddoc.wiki" rel="nofollow">Fossil SCM 的 Documentation</a><span>&nbsp;</span>技術達成</p>
+<p><strong>Fossil SCM on Ubuntu 18.04</strong></p>
+<p>虛擬或實體安裝的<span>&nbsp;</span><a href="https://www.ubuntu.com/" rel="nofollow">Ubuntu</a>, 可以透過<span>&nbsp;</span><a href="https://fossil-scm.org/" rel="nofollow">Fossil SCM</a><span>&nbsp;</span>與<span>&nbsp;</span><a href="https://www.stunnel.org/" rel="nofollow">Stunnel</a><span>&nbsp;</span>的結合, 建構能夠自行維護的<span>&nbsp;</span><a href="https://fossil-scm.org/" rel="nofollow">Fossil SCM</a><span>&nbsp;</span>伺服主機</p>
+<p><a href="http://mde.tw/2017springwcm/blog/2017spring-ubuntu-stunnel-fossil.html" rel="nofollow">http://mde.tw/2017springwcm/blog/2017spring-ubuntu-stunnel-fossil.html</a><br><a href="http://mde.tw/2017springwcm/blog/2017spring-stunnel-fossil.html" rel="nofollow">http://mde.tw/2017springwcm/blog/2017spring-stunnel-fossil.html</a></p>
+<p><span>◎&nbsp; 安裝Fossil SCM&nbsp; &rarr; 啟動Fossil SCM &rarr; 使用Fossil SCM伺服網頁</span></p>
+<p><strong>Virtualbox Appliance(虛擬設備)</strong></p>
+<p><span>下載&nbsp;<a href="https://drive.google.com/file/d/1_lnY385mNZ8noDOcqj0hSZHd4zvG7FBQ/view" rel="nofollow">Ubuntu 18.04 with Stunnel 4 與 Fossil SCM 2.5 安裝轉出壓縮檔</a></span></p>
+<p><strong>課程內容&nbsp;:</strong></p>
+<p>說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。</p>
+<p>說明在使用 CMSimfly 過程，碰到無法正確解讀 config/content.htm 時，可更新程式碼或回報問題的流程。</p>
+<p>說明如何利用 Virtualbox 安裝 Ubuntu 18.04.1 伺服器，目的在自行建立 Fossil SCM，<span>最理想的分散式版次管理系統，可以利用 git remote add, 將近端分組倉儲分別存放在 Github, Gitlab 與 Bitbucket 之外，再利用 Fossil SCM 建立區域網路或廣域網路上的備份主機，設法將上述各倉儲與近端保持同步。</span></p><h1>Python 手冊</h1>
 <p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
 <p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h1>OnShape 手冊</h1>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
