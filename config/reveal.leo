@@ -33,10 +33,10 @@
 <v t="leo.20181109044351.1" a="E"><vh>week4-6</vh>
 <v t="leo.20181109044351.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109044353.1" a="E"><vh>week7</vh>
+<v t="leo.20181109044353.1" a="E"><vh>week7-8</vh>
 <v t="leo.20181109044353.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109044355.1" a="E"><vh>week8</vh>
+<v t="leo.20181109044355.1" a="E"><vh>week9</vh>
 <v t="leo.20181109044355.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
@@ -44,7 +44,6 @@
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
 </v>
-<v t="leo.20180914112652.1"><vh>快捷鍵</vh></v>
 </v>
 </v>
 </v>
@@ -301,15 +300,6 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180914112652.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="leo.20181109044350.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -351,7 +341,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181109044353.2"># Week7
+<t tx="leo.20181109044353.2"># Week7-8
 
 *1.Github 無法登入
 
@@ -377,7 +367,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181109044355.2"># Week8
+<t tx="leo.20181109044355.2"># Week9
 
 自評成績
 　 
