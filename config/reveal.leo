@@ -139,7 +139,7 @@ vertical: body pane on the botton</t>
 Created by mdepcad 2b 40623216
 &lt;/small&gt;
 
-[4062316 楊士平 ]
+[40623216 楊士平 ]
 
 
 </t>
