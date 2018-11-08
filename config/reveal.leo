@@ -24,23 +24,27 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11" a="E"><vh>week1-2</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20181109044350.1" a="E"><vh>week3</vh>
+<v t="leo.20181109044350.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20181109044351.1" a="E"><vh>week4-6</vh>
+<v t="leo.20181109044351.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20181109044353.1" a="E"><vh>week7</vh>
+<v t="leo.20181109044353.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20181109044355.1" a="E"><vh>week8</vh>
+<v t="leo.20181109044355.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
-</v>
-<v t="leo.20180914112652.1"><vh>快捷鍵</vh>
-<v t="leo.20180914112652.2"><vh>投影片快捷鍵</vh></v>
-</v>
+<v t="leo.20180914112652.1"><vh>快捷鍵</vh></v>
 </v>
 </v>
 </v>
@@ -127,15 +131,15 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall scrum2 網際簡報
+<t tx="leo.20180827201621.10">## MDECAPD 2B 40623216投影片
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by mdepcad 2b 40623216
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[4062316 楊士平 ]
 
 
 </t>
@@ -148,38 +152,21 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20180827201621.12">#week1-2
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+*1.在github上建立一個倉儲，"學號.github.io"
 
-</t>
+*2.將老師的倉儲跟自己的倉儲都clone下來
+
+*3.開啟近端 python wsgi.py ，修改標題
+
+*4.認識onshape
+
+*5.到mde.tw 領取個人倉儲</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
 
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
 </t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -219,21 +206,6 @@ def domake():
 make = threading.Thread(target=domake)
 make.start()
 ```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -338,15 +310,82 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180914112652.2"># 投影片快捷鍵
+<t tx="leo.20181109044350.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
+						
+</t>
+<t tx="leo.20181109044350.2"># Week3
+
+*中秋節放假
+
+
+</t>
+<t tx="leo.20181109044351.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181109044351.2"># Week4-6
+
+*1.用onshape，做繪圖的練習
+
+*2.複習前五週所學
+
+*3.如何處理網誌error的問題
+
+*4.安裝新版p37
+
+*心得:經過這一兩週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
+</t>
+<t tx="leo.20181109044353.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181109044353.2"># Week7
+
+*1.Github 無法登入
+
+*2.發生原因:也就是網路裝置與資料庫故障, 導致發生此一事件
+
+*3.影響範圍
+
+*4.因應處理
+
+*5.課程內容 :
+
+說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。
+
+說明在使用 CMSimfly 過程，碰到無法正確解讀 config/content.htm 時，可更新程式碼或回報問題的流程。
+
+說明如何利用 Virtualbox 安裝 Ubuntu 18.04.1 伺服器，目的在自行建立 Fossil SCM，最理想的分散式版次管理系統，可以利用 git remote add, 將近端分組倉儲分別存放在 Github, Gitlab 與 Bitbucket 之外，再利用 Fossil SCM 建立區域網路或廣域網路上的備份主機，設法將上述各倉儲與近端保持同步。</t>
+<t tx="leo.20181109044355.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181109044355.2"># Week8
+
+自評成績
+　 
+      68
 </t>
 </tnodes>
 </leo_file>
