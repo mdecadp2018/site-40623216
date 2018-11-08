@@ -152,7 +152,7 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20180827201621.12">#week1-2
+<t tx="leo.20180827201621.12"># Week1-2
 
 *1.在github上建立一個倉儲，"學號.github.io"
 
