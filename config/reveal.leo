@@ -189,9 +189,7 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
+<t tx="leo.20180827201621.17">
 @language python
 # use threading and subprocess to threading the make process
 import os
