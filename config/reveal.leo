@@ -39,6 +39,15 @@
 <v t="leo.20181109044355.1" a="E"><vh>week9</vh>
 <v t="leo.20181109044355.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20190106222006.1" a="E"><vh>week10-14</vh>
+<v t="leo.20190106222006.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190106222008.1" a="E"><vh>week15-17</vh>
+<v t="leo.20190106222008.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190106222011.1" a="E"><vh>學習心得</vh>
+<v t="leo.20190106222011.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
@@ -161,7 +170,9 @@ Created by mdepcad 2b 40623216
 
 *4.認識onshape
 
-*5.到mde.tw 領取個人倉儲</t>
+*5.到mde.tw 領取個人倉儲
+
+</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -326,9 +337,10 @@ make.start()
 </t>
 <t tx="leo.20181109044351.2"># Week4-6
 
-*1.用onshape，做繪圖的練習 *2.複習前五週所學
-
-*3.如何處理網誌error的問題 *4.安裝新版p37
+*1.用onshape，做繪圖的練習 
+*2.複習前五週所學
+*3.如何處理網誌error的問題 
+*4.安裝新版p37
 
 *心得:經過這一兩週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
 </t>
@@ -345,19 +357,12 @@ make.start()
 
 *1.Github 無法登入
 
-*2.發生原因:也就是網路裝置與資料庫故障, 導致發生此一事件
-
-*3.影響範圍
-
-*4.因應處理
-
-*5.課程內容 :
+*2.課程內容 :
 
 說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。
 
-說明在使用 CMSimfly 過程，碰到無法正確解讀 config/content.htm 時，可更新程式碼或回報問題的流程。
 
-說明如何利用 Virtualbox 安裝 Ubuntu 18.04.1 伺服器，目的在自行建立 Fossil SCM，最理想的分散式版次管理系統，可以利用 git remote add, 將近端分組倉儲分別存放在 Github, Gitlab 與 Bitbucket 之外，再利用 Fossil SCM 建立區域網路或廣域網路上的備份主機，設法將上述各倉儲與近端保持同步。</t>
+</t>
 <t tx="leo.20181109044355.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -367,11 +372,47 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181109044355.2"># Week9
+<t tx="leo.20181109044355.2">#Week9
 
-自評成績
-　 
-      68
+*1.期中自評
+*2.專題分組
+*3.和組員互相討論專題題目
+
+</t>
+<t tx="leo.20190106222006.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106222006.2">#Week10-Week14
+</t>
+<t tx="leo.20190106222008.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106222008.2">#Week15-Week17
+</t>
+<t tx="leo.20190106222011.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106222011.2">#學習心得
+
+*心得:經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
 </t>
 </tnodes>
 </leo_file>
