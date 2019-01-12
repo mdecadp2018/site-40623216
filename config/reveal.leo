@@ -147,7 +147,7 @@ vertical: body pane on the botton</t>
 Created by mdepcad 2b 40623216
 &lt;/small&gt;
 
-[40623216 楊士平 ]
+[40623216 楊士平 ](https://mdecadp2018.github.io)
 
 
 </t>
@@ -336,11 +336,12 @@ make.start()
 <t tx="leo.20181109044351.2"># Week4-6
 
 *1.用onshape，做繪圖的練習 
-*2.複習前五週所學
-*3.如何處理網誌error的問題 
-*4.安裝新版p37
 
-*心得:經過這一兩週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
+*2.複習前五週所學
+
+*3.如何處理網誌error的問題 
+
+*4.安裝新版p37
 </t>
 <t tx="leo.20181109044353.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -356,7 +357,6 @@ make.start()
 *1.Github 無法登入
 
 *2.課程內容 :
-
 說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。
 
 
@@ -370,7 +370,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181109044355.2">#Week9
+<t tx="leo.20181109044355.2"># Week9
 
 *1.期中自評
 *2.專題分組
@@ -386,7 +386,16 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190106222006.2">#Week10-Week14
+<t tx="leo.20190106222006.2"># Week10-Week14
+
+*1.整理Onshape示範手冊，並進行第一次協同
+
+*2.討論所有工作分配
+
+*3.進行摺疊自行車的設計、訂定規格
+
+*4.學習利用Pandoc在Leo編輯期末報告
+
 </t>
 <t tx="leo.20190106222008.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -397,7 +406,18 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190106222008.2">#Week15-Week17
+<t tx="leo.20190106222008.2"># Week15-Week17
+
+*1.解決所以報告上遇到的問題
+
+*2.開始使用V-rep模擬運動
+
+*3.完成 Final Project
+
+*4.完成機械手臂在 V-rep 的模擬
+
+*5.學習如何在投影片放圖片
+
 </t>
 <t tx="leo.20190106222011.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -408,7 +428,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190106222011.2">#學習心得
+<t tx="leo.20190106222011.2"># 學習心得
 
 *心得:經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
 </t>
