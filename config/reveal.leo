@@ -159,7 +159,7 @@ vertical: body pane on the botton</t>
 Created by mdepcad 2b 40623216
 &lt;/small&gt;
 
-[40623216 楊士平 ](https://github.com/mdecadp2018/site-40623216)
+[40623216 個人網誌 ](https://github.com/mdecadp2018/site-40623216)
 
 
 </t>
@@ -359,7 +359,7 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20181109044355.2">#Week9
+<t tx="leo.20181109044355.2"># Week9
 
 *1.期中自評
 
@@ -377,7 +377,7 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20190113181117.2">#Week10
+<t tx="leo.20190113181117.2"># Week10
 
 更新p37
 
@@ -391,7 +391,7 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20190113181119.2">#Week11-12
+<t tx="leo.20190113181119.2"># Week11-12
 
 Onshape教學
 
@@ -406,7 +406,7 @@ Onshape教學
 
 						
 </t>
-<t tx="leo.20190113181121.2">#Week13-14
+<t tx="leo.20190113181121.2"># Week13-14
 
 學習利用Pandoc在Leo編輯期末報告
 
@@ -424,7 +424,7 @@ Onshape教學
 
 						
 </t>
-<t tx="leo.20190113181202.2">#Week15-16
+<t tx="leo.20190113181202.2"># Week15-16
 
 學習使用 V-REP
 
@@ -438,7 +438,7 @@ Onshape教學
 
 						
 </t>
-<t tx="leo.20190113181238.2">#Week17
+<t tx="leo.20190113181238.2"># Week17
 
 學習如何在投影片放圖片
 </t>
@@ -451,7 +451,7 @@ Onshape教學
 
 						
 </t>
-<t tx="leo.20190113184214.2">##學習心得
+<t tx="leo.20190113184214.2"># 學習心得
 
 經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。</t>
 <t tx="leo.20190113184537.1">&lt;section data-markdown&gt;
@@ -463,7 +463,7 @@ Onshape教學
 
 						
 </t>
-<t tx="leo.20190113184537.2">##自評成績
+<t tx="leo.20190113184537.2"># 自評成績
 
 68</t>
 </tnodes>
