@@ -174,15 +174,15 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20180827201621.12"># Week1-2
 
-*1.在github上建立一個倉儲，"學號.github.io"
+在github上建立一個倉儲，"學號.github.io"
 
-*2.將老師的倉儲跟自己的倉儲都clone下來
+將老師的倉儲跟自己的倉儲都clone下來
 
-*3.開啟近端 python wsgi.py ，修改標題
+開啟近端 python wsgi.py ，修改標題
 
-*4.認識onshape
+認識onshape
 
-*5.到mde.tw 領取個人倉儲
+到mde.tw 領取個人倉儲
 
 </t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
@@ -308,7 +308,7 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20181109044350.2"># Week3
 
-*中秋節放假
+中秋節放假
 
 
 </t>
@@ -323,13 +323,13 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20181109044351.2"># Week4-6
 
-*1.用onshape，做繪圖的練習 
+用onshape，做繪圖的練習 
 
-*2.複習前五週所學
+複習前五週所學
 
-*3.如何處理網誌error的問題 
+如何處理網誌error的問題 
 
-*4.安裝新版p37
+安裝新版p37
 </t>
 <t tx="leo.20181109044353.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -342,9 +342,9 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20181109044353.2"># Week7-8
 
-*1.Github 無法登入
+Github 無法登入
 
-*2.課程內容 :
+課程內容 :
 
 說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。
 
@@ -361,11 +361,11 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20181109044355.2"># Week9
 
-*1.期中自評
+期中自評
 
-*2.專題分組
+專題分組
 
-*3.和組員互相討論專題題目
+和組員互相討論專題題目
 
 </t>
 <t tx="leo.20190113181117.1">&lt;section data-markdown&gt;
