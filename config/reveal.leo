@@ -39,17 +39,29 @@
 <v t="leo.20181109044355.1" a="E"><vh>week9</vh>
 <v t="leo.20181109044355.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20190106222006.1" a="E"><vh>week10-14</vh>
-<v t="leo.20190106222006.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190113181117.1" a="E"><vh>week10</vh>
+<v t="leo.20190113181117.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20190106222008.1" a="E"><vh>week15-17</vh>
-<v t="leo.20190106222008.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190113181119.1" a="E"><vh>week11-12</vh>
+<v t="leo.20190113181119.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20190106222011.1" a="E"><vh>學習心得</vh>
+<v t="leo.20190113181121.1" a="E"><vh>week13-14</vh>
+<v t="leo.20190113181121.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190113181202.1" a="E"><vh>week15-16</vh>
+<v t="leo.20190113181202.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190113181238.1" a="E"><vh>week17</vh>
+<v t="leo.20190113181238.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190106222011.1"><vh>學習心得</vh>
 <v t="leo.20190106222011.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20190113182157.1" a="E"><vh>期末成績</vh>
+<v t="leo.20190113182157.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
 </v>
@@ -145,11 +157,9 @@ vertical: body pane on the botton</t>
 
 &lt;small&gt;
 Created by mdepcad 2b 40623216
-
-[40623216 楊士平 ](https://mdecadp2018.github.io)
 &lt;/small&gt;
 
-
+[40623216 楊士平 ]
 
 
 </t>
@@ -192,30 +202,6 @@ Created by mdepcad 2b 40623216
 						
 </t>
 <t tx="leo.20180827201621.17">
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -359,6 +345,7 @@ make.start()
 *1.Github 無法登入
 
 *2.課程內容 :
+
 說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。
 
 
@@ -372,7 +359,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181109044355.2"># Week9
+<t tx="leo.20181109044355.2">#Week9
 
 *1.期中自評
 
@@ -381,7 +368,17 @@ make.start()
 *3.和組員互相討論專題題目
 
 </t>
-<t tx="leo.20190106222006.1">&lt;section data-markdown&gt;
+<t tx="leo.20190106222011.1">@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106222011.2">
+心得:經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
+</t>
+<t tx="leo.20190113181117.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -390,18 +387,12 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190106222006.2"># Week10-Week14
+<t tx="leo.20190113181117.2">#Week10
 
-*1.整理Onshape示範手冊，並進行第一次協同
-
-*2.討論所有工作分配
-
-*3.進行摺疊自行車的設計、訂定規格
-
-*4.學習利用Pandoc在Leo編輯期末報告
+更新p37
 
 </t>
-<t tx="leo.20190106222008.1">&lt;section data-markdown&gt;
+<t tx="leo.20190113181119.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -410,20 +401,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190106222008.2"># Week15-Week17
+<t tx="leo.20190113181119.2">#Week11-12
 
-*1.解決所以報告上遇到的問題
+Onshape教學
 
-*2.開始使用V-rep模擬運動
-
-*3.完成 Final Project
-
-*4.完成機械手臂在 V-rep 的模擬
-
-*5.學習如何在投影片放圖片
-
+學習如何在特定圖片加邊框
 </t>
-<t tx="leo.20190106222011.1">&lt;section data-markdown&gt;
+<t tx="leo.20190113181121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -432,9 +416,50 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190106222011.2"># 學習心得
+<t tx="leo.20190113181121.2">#Week13-14
 
-*心得:經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
+學習利用Pandoc在Leo編輯期末報告
+
+學習如何將Markdown資料轉成PDF
+
+修改網站介面
+
+利用 PANDOC 在 LEO 編輯期末報告</t>
+<t tx="leo.20190113181202.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190113181202.2">#Week15-16
+
+學習使用 V-REP
+
+</t>
+<t tx="leo.20190113181238.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190113181238.2">#Week17
+
+學習如何在投影片放圖片
+</t>
+<t tx="leo.20190113182157.1">@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190113182157.2">68
 </t>
 </tnodes>
 </leo_file>
