@@ -54,11 +54,11 @@
 <v t="leo.20190113181238.1" a="E"><vh>week17</vh>
 <v t="leo.20190113181238.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20190106222011.1"><vh>學習心得</vh>
-<v t="leo.20190106222011.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190113184214.1" a="E"><vh>心得</vh>
+<v t="leo.20190113184214.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20190113182157.1" a="E"><vh>期末成績</vh>
-<v t="leo.20190113182157.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190113184537.1" a="E"><vh>期末</vh>
+<v t="leo.20190113184537.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
@@ -159,7 +159,7 @@ vertical: body pane on the botton</t>
 Created by mdepcad 2b 40623216
 &lt;/small&gt;
 
-[40623216 楊士平 ]
+[40623216 楊士平 ](https://github.com/mdecadp2018/site-40623216)
 
 
 </t>
@@ -368,16 +368,6 @@ Created by mdepcad 2b 40623216
 *3.和組員互相討論專題題目
 
 </t>
-<t tx="leo.20190106222011.1">@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190106222011.2">
-心得:經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
-</t>
 <t tx="leo.20190113181117.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -452,14 +442,29 @@ Onshape教學
 
 學習如何在投影片放圖片
 </t>
-<t tx="leo.20190113182157.1">@others
+<t tx="leo.20190113184214.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
-<t tx="leo.20190113182157.2">68
+<t tx="leo.20190113184214.2">##學習心得
+
+經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。</t>
+<t tx="leo.20190113184537.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
 </t>
+<t tx="leo.20190113184537.2">##自評成績
+
+68</t>
 </tnodes>
 </leo_file>
