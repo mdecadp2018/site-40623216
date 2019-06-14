@@ -24,38 +24,20 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>week1-2</vh>
+<v t="leo.20180827201621.11" a="E"><vh>week10-12</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109044350.1" a="E"><vh>week3</vh>
+<v t="leo.20181109044350.1" a="E"><vh>week13-15</vh>
 <v t="leo.20181109044350.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109044351.1" a="E"><vh>week4-6</vh>
+<v t="leo.20181109044351.1" a="E"><vh>week16</vh>
 <v t="leo.20181109044351.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109044353.1" a="E"><vh>week7-8</vh>
+<v t="leo.20181109044353.1" a="E"><vh>week17</vh>
 <v t="leo.20181109044353.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181109044355.1" a="E"><vh>week9</vh>
+<v t="leo.20181109044355.1" a="E"><vh>心得</vh>
 <v t="leo.20181109044355.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20190113181117.1" a="E"><vh>week10</vh>
-<v t="leo.20190113181117.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20190113181119.1" a="E"><vh>week11-12</vh>
-<v t="leo.20190113181119.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20190113181121.1" a="E"><vh>week13-14</vh>
-<v t="leo.20190113181121.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20190113181202.1" a="E"><vh>week15-16</vh>
-<v t="leo.20190113181202.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20190113181238.1" a="E"><vh>week17</vh>
-<v t="leo.20190113181238.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20190113184214.1" a="E"><vh>心得</vh>
-<v t="leo.20190113184214.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20190113184537.1" a="E"><vh>期末</vh>
 <v t="leo.20190113184537.2"><vh>投影片快捷鍵</vh></v>
@@ -151,15 +133,19 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## MDECAPD 2B 40623216投影片
+<t tx="leo.20180827201621.10">## 虎科大機械設計工程系
 
-### 虎科大機械設計工程系
+
+### 設計二乙  40623216 期末投影片
 
 &lt;small&gt;
-Created by mdepcad 2b 40623216
+分組網站
+[https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g1/content/index.html]
+個人網站
+[https://mdecadp2018.github.io/site-40623216/content/index.html]
 &lt;/small&gt;
 
-[40623216 個人網誌 ](https://github.com/mdecadp2018/site-40623216)
+
 
 
 </t>
@@ -172,17 +158,12 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20180827201621.12"># Week1-2
+<t tx="leo.20180827201621.12"># Week10-12
 
-在github上建立一個倉儲，"學號.github.io"
+完成實習任務三
 
-將老師的倉儲跟自己的倉儲都clone下來
+&lt;iframe width="935" height="536" src="https://www.youtube.com/embed/sMgNuhz-BM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-開啟近端 python wsgi.py ，修改標題
-
-認識onshape
-
-到mde.tw 領取個人倉儲
 
 </t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
@@ -201,7 +182,32 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20180827201621.17">
+<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -306,12 +312,11 @@ Created by mdepcad 2b 40623216
 
 						
 </t>
-<t tx="leo.20181109044350.2"># Week3
+<t tx="leo.20181109044350.2"># Week13-15
 
-中秋節放假
+用onsphape畫手足球零件
 
-
-</t>
+(https://cad.onshape.com/documents/fcd2ce4571d668249938c4fb/w/f8cf7d2aff1a9bbd00da57c4/e/8ed15db245d28cf2aa49ffb2)</t>
 <t tx="leo.20181109044351.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -323,13 +328,12 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20181109044351.2"># Week4-6
 
-用onshape，做繪圖的練習 
+*1.用onshape，做繪圖的練習 
+*2.複習前五週所學
+*3.如何處理網誌error的問題 
+*4.安裝新版p37
 
-複習前五週所學
-
-如何處理網誌error的問題 
-
-安裝新版p37
+*心得:經過這一兩週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。
 </t>
 <t tx="leo.20181109044353.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -342,9 +346,9 @@ Created by mdepcad 2b 40623216
 </t>
 <t tx="leo.20181109044353.2"># Week7-8
 
-Github 無法登入
+*1.Github 無法登入
 
-課程內容 :
+*2.課程內容 :
 
 說明如何利用 Github，近端與區域網路中的 Fossil Scm， 保全輔助設計的資料。
 
@@ -353,118 +357,28 @@ Github 無法登入
 <t tx="leo.20181109044355.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
 
 
 						
-</t>
-<t tx="leo.20181109044355.2"># Week9
-
-期中自評
-
-專題分組
-
-和組員互相討論專題題目
-
-</t>
-<t tx="leo.20190113181117.1">&lt;section data-markdown&gt;
+&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-@others
+</t>
+<t tx="leo.20181109044355.2">#Week9
+
+*1.期中自評
+*2.專題分組
+*3.和組員互相討論專題題目
+
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20190113184537.1">@others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
-<t tx="leo.20190113181117.2"># Week10
-
-更新p37
-
-</t>
-<t tx="leo.20190113181119.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190113181119.2"># Week11-12
-
-Onshape教學
-
-學習如何在特定圖片加邊框
-</t>
-<t tx="leo.20190113181121.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190113181121.2"># Week13-14
-
-學習利用Pandoc在Leo編輯期末報告
-
-學習如何將Markdown資料轉成PDF
-
-修改網站介面
-
-利用 PANDOC 在 LEO 編輯期末報告</t>
-<t tx="leo.20190113181202.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190113181202.2"># Week15-16
-
-學習使用 V-REP
-
-</t>
-<t tx="leo.20190113181238.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190113181238.2"># Week17
-
-學習如何在投影片放圖片
-</t>
-<t tx="leo.20190113184214.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190113184214.2"># 學習心得
-
-經過這一週的練習之下，對onshape的操作愈來愈熟悉，其實它跟Solidworks的作圖方式差不多，所以很快就能上手了，只是Onshape全都是英文的，所以查詢不會的單字是最花時間的，需要每個操作方法都去了解，任何單字所代表的意思都要知道。</t>
-<t tx="leo.20190113184537.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190113184537.2"># 自評成績
-
-68</t>
+<t tx="leo.20190113184537.2"></t>
 </tnodes>
 </leo_file>
