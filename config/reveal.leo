@@ -138,10 +138,10 @@ vertical: body pane on the botton</t>
 
 ### 設計二乙  40623216 期末投影片
 
-&lt;small&gt;
+
 [分組網站](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g1/content/index.html)
+
 [個人網站](https://mdecadp2018.github.io/site-40623216/content/index.html)
-&lt;/small&gt;
 
 
 
