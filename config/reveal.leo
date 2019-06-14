@@ -139,10 +139,8 @@ vertical: body pane on the botton</t>
 ### 設計二乙  40623216 期末投影片
 
 &lt;small&gt;
-分組網站
-[https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g1/content/index.html]
-個人網站
-[https://mdecadp2018.github.io/site-40623216/content/index.html]
+[分組網站](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g1/content/index.html)
+[個人網站](https://mdecadp2018.github.io/site-40623216/content/index.html)
 &lt;/small&gt;
 
 
@@ -316,7 +314,9 @@ make.start()
 
 用onsphape畫手足球零件
 
-(https://cad.onshape.com/documents/fcd2ce4571d668249938c4fb/w/f8cf7d2aff1a9bbd00da57c4/e/8ed15db245d28cf2aa49ffb2)</t>
+(https://cad.onshape.com/documents/fcd2ce4571d668249938c4fb/w/f8cf7d2aff1a9bbd00da57c4/e/8ed15db245d28cf2aa49ffb2)
+
+</t>
 <t tx="leo.20181109044351.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
